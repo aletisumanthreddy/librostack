@@ -1,0 +1,25 @@
+.navbar {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease-in-out;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+
+.nav-link {
+  font-size: 1rem;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: #f1c40f !important;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.4);
+}
+
+.nav-link.disabled {
+  color: #e9ecef !important;
+  font-weight: 600;
+  pointer-events: none;
+}

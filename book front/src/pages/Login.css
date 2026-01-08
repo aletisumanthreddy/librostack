@@ -1,0 +1,94 @@
+/* 🖼️ Page layout */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 30px;
+  background: linear-gradient(135deg, rgba(255,255,255,0.3), rgba(240,240,240,0.7)),
+              url('https://cdn.pixabay.com/photo/2020/07/31/04/13/drops-5451924_1280.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(2px);
+  animation: fadeIn 0.6s ease-in-out;
+}
+.login-form {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(8px);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  max-width: 400px;
+  animation: slideUp 0.5s ease forwards;
+  z-index: 1;
+}
+
+/* 📌 Heading */
+.login-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: #212529;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.08);
+}
+
+/* ✏️ Inputs */
+.login-input {
+  width: 100%;
+  padding: 12px 14px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  border: 1px solid #ced4da;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  box-sizing: border-box;
+}
+
+.login-input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 8px #007bff60;
+  outline: none;
+}
+
+/* 🎯 Button */
+.login-button {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(to right, #007bff, #0056b3);
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.login-button:hover {
+  background: linear-gradient(to right, #0056b3, #003e7c);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* ❌ Error */
+.login-error {
+  color: #dc3545;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 12px;
+}
+
+/* 🎞️ Animations */
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes slideUp {
+  0% { transform: translateY(30px); opacity: 0; }
+  100% { transform: translateY(0); opacity: 1; }
+}
