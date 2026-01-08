@@ -20,6 +20,7 @@ public class LibraryReservationApplication {
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
                         .allowedOrigins("http://localhost:3000")
+                        .allowedOrigins("https://librostackfront.vercel.app/login")
                         .allowedMethods("GET", "POST", "PUT", "DELETE")
                         .allowedHeaders("*");
             }
