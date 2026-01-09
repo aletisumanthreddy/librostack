@@ -16,22 +16,22 @@ Backend API (Railway)
 🛠 Tech Stack
 
 Frontend
->React.js
->JavaScript
->Axios
+>React.js,
+>JavaScript,
+>Axios,
 >HTML, CSS
 
 Backend
->Spring Boot
->Spring Data JPA
->Hibernate
->Java 21
+>Spring Boot, 
+>Spring Data JPA, 
+>Hibernate, 
+>Java 21, 
 
 Database
 >MySQL (Railway Cloud)
 
 Deployment
->Frontend: Vercel
+>Frontend: Vercel   
 >Backend & DB: Railway
 
 ✨ Key Features
@@ -47,17 +47,22 @@ Secure CORS-enabled frontend–backend communication
 📂 Project Structure
 librostack/
 ├── book front/          # React frontend
+
 ├── library_reservation/ # Spring Boot backend
+
 └── README.md
 
 ▶️ Run Locally
 Backend
 cd library_reservation
+
 mvn spring-boot:run
 
 Frontend
 cd book front
+
 npm install
+
 npm start
 
 📌 Highlights
