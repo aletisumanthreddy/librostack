@@ -16,36 +16,48 @@ Backend API (Railway)
 🛠 Tech Stack
 
 Frontend
+
 >React.js,
 >JavaScript,
 >Axios,
 >HTML, CSS
 
 Backend
+
 >Spring Boot, 
 >Spring Data JPA, 
 >Hibernate, 
 >Java 21, 
 
 Database
+
 >MySQL (Railway Cloud)
 
 Deployment
+
 >Frontend: Vercel   
 >Backend & DB: Railway
 
 ✨ Key Features
 
 User registration & authentication
+
 Role-based access (Admin / Librarian / Member)
+
 Book management (add, view, update)
+
 Book reservation system
+
 RESTful APIs
+
 Cloud database persistence
+
 Secure CORS-enabled frontend–backend communication
 
 📂 Project Structure
+
 librostack/
+
 ├── book front/          # React frontend
 
 ├── library_reservation/ # Spring Boot backend
@@ -53,12 +65,15 @@ librostack/
 └── README.md
 
 ▶️ Run Locally
+
 Backend
+
 cd library_reservation
 
 mvn spring-boot:run
 
 Frontend
+
 cd book front
 
 npm install
@@ -68,14 +83,19 @@ npm start
 📌 Highlights
 
 Fully deployed full-stack application
+
 Environment-based configuration (no hardcoded secrets)
+
 Real-world cloud deployment experience
+
 Clean Git & GitHub workflow
+
 Production-ready architecture
 
 👨‍💻 Author
 
-Sumant Reddy
+Sumanth Reddy
+
 GitHub: https://github.com/aletisumanthreddy
 
 📖 Note
